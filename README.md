@@ -4,23 +4,34 @@ Overview
 This project delivers interactive Tableau dashboards across two real French companies — a national catering and food service operator and a multi-location bookstore group. Built as part of a Data Visualisation with Tableau course at EDHEC Business School, the work involved end-to-end dashboard development: from raw data ingestion and cleaning, through KPI definition and calculated field construction, to final multi-stakeholder dashboard design.
 Each set of dashboards was built as a proof of concept (POC) for data-driven decision-making within the respective organisation, with outputs designed for use by different stakeholder levels — from operational teams to senior management.
 
+View Dashboards Live
+Project	Tableau Public Link
+EDEN RESTAURATION	View Dashboards →
+
+VOLTAIRE	View Dashboards →
+
+Full Tableau Public Profile	View All Work →
+
+
+
 Part 1 — EDEN RESTAURATION (Supply Chain Analytics)
 Company Context
 EDEN RESTAURATION is a French catering company with a focus on sustainable and ethical sourcing — prioritising local and seasonal ingredients, short supply chains, and responsible procurement practices.
 
 Project Objective
 The company's IT department provided a one-month sample dataset and engaged the team to explore the data, design interactive dashboards to track key supply chain metrics, and propose recommendations for optimising logistics, procurement, and inventory management.
+
 Data Sources
 Two datasets were used and joined on regional codes:
 eMarket_Cmd2019-11.xlsx — Primary dataset covering product deliveries for November 2019. Key fields include site details (SiteCode, SiteName, RegionCode), logistics and supplier information (Plateforme, Fournisseur, DateLivraison, DateEnvoiCmd), and product specifics (Categorie, Famille, SousFamille, ProduitDesignation, QteUC, PrixUC, Marque, Origine).
 regions_eden.xlsx — Secondary reference table mapping regional codes to administrative regions of France (RegionCode, RegionName, RegionFrance).
-
 Key Metrics
 Metric	Value
 Total Revenue	€27.15M
 Total Deliveries	726,540
 Average Delivery Time	5.13 days
 Data Period	November 2019
+
 Dashboards
 1. Business Performance Overview – November 2019 - Top-level revenue and operational KPIs for November 2019. Tracks overall business performance, delivery volumes, and period metrics for management reporting. Designed for General Management and strategic decision-making.
 2. Supply Chain Performance - Tracks delivery lead times, distribution volumes across platforms (Plateforme), and supplier-level performance. Highlights the 5.13-day average delivery time and identifies logistics bottlenecks across the supply network.
@@ -42,6 +53,7 @@ STOCKS.xlsx	Monthly stock snapshots — item, store, weighted average purchase c
 ENTRANCES_AND_EXITS.xlsx	30-minute interval foot traffic data — entrances, exits, tickets sold, sales in euros per interval
 STORES.xlsx	Store reference data — store name, postal code, location type, brand, geographic coordinates, regional zone, surface area
 ITEMS.xlsx	Product reference data — item label, category, sub-category
+
 Data quality issues (missing values, inconsistent records) were identified and addressed during the cleaning and preprocessing phase.
 
 Key Metrics
@@ -64,10 +76,8 @@ Technical Notes
 To open: Tableau Desktop or Tableau Public (free) required to view .twbx files interactively.
 
 Files
-├── EDEN_Restauration.twbx        # Packaged Tableau workbook — EDEN dashboards (3 views)
-├── Voltaire.twbx                 # Packaged Tableau workbook — VOLTAIRE dashboards (4 views)
 └── README.md
-Note: Underlying datasets (Excel/CSV) are not included in this repository. Data was provided under academic licence and is not publicly shareable.
+Note: Both Tableau workbooks are published on Tableau Public — use the links at the top to view all dashboards interactively in your browser without needing Tableau installed. Underlying datasets are not included — data was provided under academic licence and is not publicly shareable.
 
 Context
 Course: Data Visualisation with Tableau — MSc Data Analytics & AI 
