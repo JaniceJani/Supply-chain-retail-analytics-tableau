@@ -5,7 +5,9 @@ This project delivers interactive Tableau dashboards across two real French comp
 Each set of dashboards was built as a proof of concept (POC) for data-driven decision-making within the respective organisation, with outputs designed for use by different stakeholder levels — from operational teams to senior management.
 
 View Dashboards Live
+
 Project	Tableau Public Link
+
 EDEN RESTAURATION	View Dashboards → https://public.tableau.com/app/profile/janice.jani/viz/EDEN_Restauration/BusinessPerformanceOverviewNovember20192
 
 VOLTAIRE	View Dashboards → https://public.tableau.com/app/profile/janice.jani/viz/Voltaire/BusinessOverview
