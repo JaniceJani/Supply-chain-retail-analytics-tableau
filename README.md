@@ -6,11 +6,11 @@ Each set of dashboards was built as a proof of concept (POC) for data-driven dec
 
 View Dashboards Live
 Project	Tableau Public Link
-EDEN RESTAURATION	View Dashboards →
+EDEN RESTAURATION	View Dashboards → https://public.tableau.com/app/profile/janice.jani/viz/EDEN_Restauration/BusinessPerformanceOverviewNovember20192
 
-VOLTAIRE	View Dashboards →
+VOLTAIRE	View Dashboards → https://public.tableau.com/app/profile/janice.jani/viz/Voltaire/BusinessOverview
 
-Full Tableau Public Profile	View All Work →
+Full Tableau Public Profile	View All Work → https://public.tableau.com/app/profile/janice.jani/vizzes
 
 
 
